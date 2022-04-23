@@ -1,0 +1,165 @@
+/* ---ヘッダーの編集--- */
+header ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+
+header li {
+  margin: 0 0 0 15px;
+  font-size: 20px;
+}
+
+nav {
+  margin: 0 0 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  padding: 30px 4% 20px;
+  background-color: #fff;
+  /* position: fixed; */
+  top: 0;
+  display: flex;
+  align-items: center;
+  font-family: cursive;
+}
+
+header h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: #4b4b4b;
+}
+
+/* ---bodyの編集--- */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ,
+    Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #c1c1c1;
+  color: #fff;
+}
+
+.introduction {
+  margin: 20px;
+  width: 50%;
+  border: solid 2px;
+  border-radius: 15px;
+  transition: 0.2s;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#quiz-image1 {
+  margin: 30px auto;
+  display: flex;
+  text-align: center;
+  width: 700px;
+  height: 200px;
+}
+
+.content:hover {
+  cursor: pointer;
+  background-color: red;
+  transform: scale(1.1, 1.1);
+}
+.title {
+  margin: 10px 30px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.text {
+  margin: 10px;
+  font-size: 15px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#quiz-container {
+  width: 90%;
+  padding: 8px 19px;
+  /* margin: 2em 0; */
+  margin: 20px auto;
+  color: #2c2c2f;
+  background: #c1c1c1;
+  color: #fff;
+  /* border-top: solid 5px #6c6d6e; */
+  border-bottom: solid 5px #6c6d6e;
+}
+.quiz-container quiz-text1 {
+  margin: 0;
+  padding: 0;
+}
+
+#choices-container {
+  margin: auto;
+  width: 57%;
+  display: flex;
+  justify-content: space-around;
+  /* font-size: ; */
+}
+
+#choices-container2 {
+  margin: 0px auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  /* font-size: ; */
+}
+
+#quiz-image2-1 {
+  margin: 30px 0px;
+  width: 240px;
+  height: 200px;
+}
+
+#quiz-image2-2 {
+  margin: 30px 0px;
+  width: 350px;
+  height: 200px;
+}
+
+#quiz-image2-3 {
+  margin: 30px 0px;
+  width: 300px;
+  height: 200px;
+}
+
+.quiz-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.input-todo {
+  background-color: white;
+}
+
+#quiz-image3 {
+  margin: 30px auto;
+  display: flex;
+  text-align: center;
+  width: 600px;
+  height: 400px;
+}
+
+#choices-container3 {
+  display: flex;
+  justify-content: space-around;
+}
